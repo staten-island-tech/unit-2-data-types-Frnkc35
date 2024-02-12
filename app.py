@@ -1,5 +1,4 @@
 
-
 """ bill = int(input("enter your bill :"))
 print(bill)
 x = input("do you want to tip? Yes or No: ")
@@ -37,19 +36,3 @@ if service == "bad":
 elif service == "okay":
     service = int(input(15 / 100))
     print((bill * service) + bill)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
