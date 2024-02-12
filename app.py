@@ -14,25 +14,15 @@ if x == "no":
 
 
 
-""" values = [1,5,10]
-
-odd = (x)
-
-x = input("enter number:")
-odd = (x&2)
-if x == """
-
-
-
-
-
-
 bill = int(input("enter your bill :"))
 print(bill)
-service = input("Was the service good? Pick 'bad', 'okay', or 'good': ")
+service = input("Was the service good? Pick 'bad', 'okay', 'good', or 'great': ")
 if service == "bad":
-    service = int(input(0))
-    print((bill * service) + bill)
+    service = int(input(bill))
 elif service == "okay":
-    service = int(input(15 / 100))
-    print((bill * service) + bill)
+    service = int(input((bill * (15 / 100)) + bill))
+elif service == "good":
+    service = int(input((bill * (20 / 100)) + bill))
+elif service == "great":
+    service = int(input((bill * (25 / 100)) + bill))
+
