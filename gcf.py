@@ -13,7 +13,8 @@ else:
 
 
 
-x = int(input("Please enter your first number: "))
+
+""" x = int(input("Please enter your first number: "))
 y = int(input("Please enter your second number: "))
 
 def gcf(x,y):
@@ -21,3 +22,21 @@ def gcf(x,y):
         print("testing")
 
 gcf(x,y)
+ """
+
+
+
+
+def two(x):
+    print(f"Your number is {x}")
+
+two(32985732)
+
+
+
+
+
+
+
+
+
