@@ -54,21 +54,21 @@ calculate = int(input("Choose your operation:" ))
 
 if(calculate in [1,2,3,4]):
     if (calculate == 1):
-        x = int(input("Please enter your first number:" ))
-        y = int(input("Please enter your second number:" ))
-        print("The answer is:" + str(x + y))
+        x = float(input("Please enter your first number:" ))
+        y = float(input("Please enter your second number:" ))
+        print("The answer is: " + str(x + y))
     elif (calculate == 2):
-        x = int(input("Please enter your first number:" ))
-        y = int(input("Please enter your second number:" ))
-        print("The answer is:" + str(x - y))
+        x = float(input("Please enter your first number:" ))
+        y = float(input("Please enter your second number:" ))
+        print("The answer is: " + str(x - y))
     elif (calculate == 3):
-        x = int(input("Please enter your first number:" ))
-        y = int(input("Please enter your second number:" ))
-        print("The answer is:" + str(x * y))
+        x = float(input("Please enter your first number:" ))
+        y = float(input("Please enter your second number:" ))
+        print("The answer is: " + str(x * y))
     elif (calculate == 4):
         x = int(input("Please enter your first number:" ))
         y = int(input("Please enter your second number:" ))
-        print("The answer is:" + str(x / y))
+        print("The answer is: " + str(x / y))
 
 else:
     print("Invalid operation")
