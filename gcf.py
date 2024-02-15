@@ -38,15 +38,8 @@ print(full_name) """
 
 
 
-""" number = int(input("Enter number to find factors: "))
 
-print("Factors of number {} are : ".format(number))
-for i in range(1, number + 1):
-    if(number % i == 0):
-        print(i) """
-
-
-print("1 - Add")
+""" print("1 - Add")
 print("2 - Subtract")
 print("3 - Multiply")
 print("4 - Divide")
@@ -71,10 +64,36 @@ if(calculate in [1,2,3,4]):
         print("The answer is: " + str(x / y))
 
 else:
-    print("Invalid operation")
+    print("Invalid operation") """
 
 
 
 
 
+""" number = int(input("Enter number to find factors: "))
 
+print("Factors of number {} are : ".format(number))
+for i in range(1, number + 1):
+    if(number % i == 0):
+        print(i) """
+
+
+
+
+num1 = int(input("Enter first number for gcf: "))
+num2 = int(input("Enter second number: "))
+
+
+def factor1():
+    for i in range(1, num1 + 1):
+        if(num1 % i == 0):
+            print(i)
+
+def factor2():
+    for i in range(1, num2 + 1):
+        if(num2 % i == 0):
+            print(i)
+
+for i in range(int(factor1, factor2)):
+    if(int(factor1, factor2 % i == 0)):
+        print(i)
