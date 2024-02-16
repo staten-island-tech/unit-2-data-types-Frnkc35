@@ -87,8 +87,8 @@ num2 = int(input("Enter second number: "))
 def factor1():
     for i in range(1, num1 + 1):
         if(num1 % i == 0):
-            def fact1():
-                i in factor1
+            print(i)
+
 
 def factor2():
     for i in range(1, num2 + 1):
