@@ -87,13 +87,18 @@ num2 = int(input("Enter second number: "))
 def factor1():
     for i in range(1, num1 + 1):
         if(num1 % i == 0):
-            print(i)
+            def fact1():
+                i in factor1
 
 def factor2():
     for i in range(1, num2 + 1):
         if(num2 % i == 0):
             print(i)
 
-for i in range(int(factor1, factor2)):
-    if(int(factor1, factor2 % i == 0)):
-        print(i)
+cf = []
+for i in factor1:
+    if i == i in factor2:
+        cf.append(i)
+print(cf)
+gcf = cf[-1]
+print(gcf)
