@@ -98,7 +98,5 @@ def factor2():
 cf = []
 for i in factor1:
     if i == i in factor2:
-        cf.append(i)
-print(cf)
-gcf = cf[-1]
-print(gcf)
+        print(cf)
+       
