@@ -87,16 +87,15 @@ num2 = int(input("Enter second number: "))
 def factor1():
     for i in range(1, num1 + 1):
         if(num1 % i == 0):
-            print(i)
+            factor1 == i
 
 
 def factor2():
     for i in range(1, num2 + 1):
         if(num2 % i == 0):
-            print(i)
+            factor2 == i
 
-cf = []
-for i in factor1:
-    if i == i in factor2:
+def cf():
+    if int(factor1) == int(factor2):
         print(cf)
        
