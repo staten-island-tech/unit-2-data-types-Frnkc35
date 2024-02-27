@@ -78,32 +78,39 @@ for i in range(1, number + 1):
         print(i) """
 
 
+cf1 = []
+cf2 = []
+cf = []
 
-
-""" num1 = int(input("Enter first number for gcf: "))
+num1 = int(input("Enter first number for gcf: "))
 num2 = int(input("Enter second number: "))
 
 
 def factor1():
     for i in range(1, num1 + 1):
         if(num1 % i == 0):
-            factor1.append(i)
+            cf1.append(i)
 
 
 def factor2():
     for i in range(1, num2 + 1):
         if(num2 % i == 0):
-            factor2.append(i)
+            cf2.append(i)
+factor1()
+factor2()
 
-def cf():
-    for i in factor1:
-        if i == i in factor2:
-            print(cf)
+for i in cf1:
+    if i == i in cf2:
+        cf.append(i)
 
-print(cf) """
+gcf = max(cf)
+print(gcf)
 
 
-num1 = int(input("Enter first number for gcf: "))
+
+
+
+""" num1 = int(input("Enter first number for gcf: "))
 num2 = int(input("Enter second number: "))
 
 def Gcf(x, y):
@@ -116,4 +123,4 @@ def Gcf(x, y):
             gcf = i 
             return gcf
 
-print("The greatest common factor is "+str(Gcf(num1, num2)))
+print("The greatest common factor is "+str(Gcf(num1, num2))) """
