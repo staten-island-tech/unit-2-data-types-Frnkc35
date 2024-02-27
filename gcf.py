@@ -80,22 +80,40 @@ for i in range(1, number + 1):
 
 
 
-num1 = int(input("Enter first number for gcf: "))
+""" num1 = int(input("Enter first number for gcf: "))
 num2 = int(input("Enter second number: "))
 
 
 def factor1():
     for i in range(1, num1 + 1):
         if(num1 % i == 0):
-            factor1 == i
+            factor1.append(i)
 
 
 def factor2():
     for i in range(1, num2 + 1):
         if(num2 % i == 0):
-            factor2 == i
+            factor2.append(i)
 
 def cf():
-    if int(factor1) == int(factor2):
-        print(cf)
-       
+    for i in factor1:
+        if i == i in factor2:
+            print(cf)
+
+print(cf) """
+
+
+num1 = int(input("Enter first number for gcf: "))
+num2 = int(input("Enter second number: "))
+
+def Gcf(x, y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller+1):
+        if((x % i == 0) and (y % i == 0)):
+            gcf = i 
+            return gcf
+
+print("The greatest common factor is "+str(Gcf(num1, num2)))
